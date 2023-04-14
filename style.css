@@ -1,0 +1,74 @@
+/*Navigation Bar*/
+.topnav {
+    background-color: #00000047;
+    overflow: hidden;
+}
+.topnav a {
+float: left;
+color: #000000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover {
+background-color: #8a5d83;;
+color: rgb(211, 211, 211);
+}
+
+.topnav a.active {
+background-color: #db91d0;
+color: white;
+}
+
+/*Home Page*/
+.IndexTitle {
+    text-align: center;
+}
+
+.IndexTitle h1 span{
+    background-color: #b5d7f9;
+}
+
+.IndexTitle h2 span{
+    background-color: #b5d7f9;
+}
+
+.WhatWeDo {
+    background-color: #b5d7f9;padding-bottom: 1.5cm;
+    border-color: #000000;
+    border-width: 5px;
+    border-style:dotted
+}
+.WhatWeDo p {
+    font-family: Georgia, serif;
+    font-size:23px;
+}
+
+/*Fancy Page*/
+.row {
+    box-sizing: border-box;
+}
+.column1 {
+    float: left;
+    width: 50%;
+    background-color:#FFB695;
+}
+.column2 {
+    float: left;
+    width: 50%;
+    background-color:#96D1CD;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.FancyGrandmas {
+    background-image: url('Images/FancyBackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
