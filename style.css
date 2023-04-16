@@ -92,7 +92,11 @@ color: white;
 }
 
 .Fancy-i-Grandmas {
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
+    background-color: #96D1CD;padding-bottom: 1.5cm;
+    border-color: #000000;
+    border-width: 5px;
+    border-style:dotted
 }
